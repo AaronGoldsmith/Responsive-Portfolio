@@ -215,20 +215,65 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
+ 
 @media only screen and (max-width: 960px) {
-
+  
+  .main-section{
+    max-width: none;
+    width:60%;
+  }
+  .container{
+    margin: 0px 40px;
+  }
 
 }
 
 @media only screen and (max-width: 768px) {
-
+  .portfolio{
+    display:block;
+  }
+  .main_container{
+    width: 90%;
+  }
 
 }
 
 @media only screen and (max-width: 640px) {
+  #logo{
+    width: 100%
+  }
   header{
     position: static;
+  }
+  .auth-image{
+    float:none;
+    margin: 30px auto;
+    width: 100%;
+  }
+ 
+  nav{
+    width: 100%;
+    float:left;
+    padding:10px;
+    text-align: center;
+  }
+  .main-section{
+    width: 90%;
+    margin: 100px 20px;
+  }
+  .main_container{
+    margin: 0px auto;
+  }
+  .container{
+    width:100%;
+  }
+  .i-wrap{
+      width:80%;
+      margin:0px auto;
+  }
+  .work{
+    width:70%;
+    margin-left: 15%;
   }
 
 }
